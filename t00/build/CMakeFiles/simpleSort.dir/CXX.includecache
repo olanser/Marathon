@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/simpleSort.h
+iostream
+-
+string
+-
+array
+-
+
+/Users/solianovsk/Desktop/day2/t00/main.cpp
+simpleSort.h
+/Users/solianovsk/Desktop/day2/t00/simpleSort.h
+

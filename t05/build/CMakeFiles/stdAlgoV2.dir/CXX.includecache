@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/stdAlgoV2.h
+iostream
+-
+fstream
+-
+forward_list
+-
+string
+-
+sstream
+-
+
+/Users/solianovsk/Desktop/Day2/t05/main.cpp
+stdAlgoV2.h
+/Users/solianovsk/Desktop/Day2/t05/stdAlgoV2.h
+

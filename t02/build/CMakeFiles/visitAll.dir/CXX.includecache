@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/visitAll.h
+iostream
+-
+sstream
+-
+deque
+-
+
+/Users/solianovsk/Desktop/day2/t02/main.cpp
+visitAll.h
+/Users/solianovsk/Desktop/day2/t02/visitAll.h
+
