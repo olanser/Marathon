@@ -1,0 +1,7 @@
+/Users/solianovsk/Desktop/day5/t00/build/CMakeFiles/rebuild_cache.dir
+/Users/solianovsk/Desktop/day5/t00/build/CMakeFiles/edit_cache.dir
+/Users/solianovsk/Desktop/day5/t00/build/utils/CMakeFiles/rebuild_cache.dir
+/Users/solianovsk/Desktop/day5/t00/build/utils/CMakeFiles/edit_cache.dir
+/Users/solianovsk/Desktop/day5/t00/build/app/CMakeFiles/rebuild_cache.dir
+/Users/solianovsk/Desktop/day5/t00/build/app/CMakeFiles/edit_cache.dir
+/Users/solianovsk/Desktop/day5/t00/build/app/CMakeFiles/TEST.dir

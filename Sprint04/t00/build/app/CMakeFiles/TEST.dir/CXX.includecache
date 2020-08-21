@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../utils/algorithmUtils.h
+tuple
+-
+iostream
+-
+
+/Users/solianovsk/Desktop/day5/t00/app/main.cpp
+algorithmUtils.h
+/Users/solianovsk/Desktop/day5/t00/app/algorithmUtils.h
+vector
+-
+
