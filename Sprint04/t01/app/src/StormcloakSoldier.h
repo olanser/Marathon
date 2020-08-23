@@ -1,8 +1,9 @@
 #pragma once
 
 #include "Axe.h"
-#include "ImperialSoldier.h"
+#include <iostream>
 
+class ImperialSoldier;
 class StormcloakSoldier final {
 public:
     StormcloakSoldier();
