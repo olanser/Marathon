@@ -1,13 +1,8 @@
 #include "draugrIII.h"
 
-Draugr::Draugr() : m_frostResist(50), m_health(100) {
-    std::cout << "Draugr with " << m_health << " health and " << m_frostResist;
-    std::cout << "% frost resist was born!" << std::endl;
-}
+Draugr::Draugr() : Draugr::Draugr(100, 50) {}
 
-Draugr::Draugr(int frostResist) : m_frostResist(frostResist), m_health(100) {
-    std::cout << "Draugr with " << m_health << " health and " << m_frostResist;
-    std::cout << "% frost resist was born!" << std::endl;
+Draugr::Draugr(int frostResist) : Draugr::Draugr(100, frostResist) {
 }
 
 Draugr::Draugr(double health, int frostResist) 
@@ -16,20 +11,13 @@ Draugr::Draugr(double health, int frostResist)
     std::cout << "% frost resist was born!" << std::endl;
 }
 
-Draugr::Draugr(Draugr& other) 
-    : m_health(other.m_health), m_frostResist(other.m_frostResist) 
-    {
-    std::cout << "Draugr with " << m_health << " health and " << m_frostResist;
-    std::cout << "% frost resist was born!" << std::endl;
+Draugr::Draugr(Draugr& other) : Draugr::Draugr(other.m_health, other.m_frostResist) { 
     std::cout << "Copy constructor was called" << std::endl;
 }
 
 
 Draugr::Draugr(Draugr&& other) 
-    : m_health(other.m_health), m_frostResist(other.m_frostResist)
-    {
-    std::cout << "Draugr with " << m_health << " health and " << m_frostResist;
-    std::cout << "% frost resist was born!" << std::endl;
+    : Draugr::Draugr(std::move(other.m_health), std::move(other.m_frostResist)) {
     std::cout << "Move constructor was called" << std::endl;
 }
 

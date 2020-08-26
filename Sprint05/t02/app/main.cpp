@@ -41,20 +41,6 @@ void fourArgc(char** argv, int& shoutNumber, const std::string name1,
     draugr2.setName(std::move(name2));
     draugr2.shoutPhrase(shoutNumber);
     
-    // size_t pos = 0;
-    // double health;
-    // int frostResist;
-
-    // health = std::stod(argv[2], &pos);
-    // if (argv[2][pos] != '\0')
-    //     throw 1;
-    // frostResist = std::stoi(argv[3], &pos, 10);
-    // if (argv[3][pos] != '\0')
-    //     throw 1;
-    // Draugr draugr(health, frostResist);
-    // draugr.shoutPhrase(shoutNumber);
-    // Draugr draugr2(draugr);
-    // draugr2.shoutPhrase(shoutNumber);
 }
 
 int main(int argc, char** argv) {
@@ -82,7 +68,7 @@ int main(int argc, char** argv) {
             threeArgc(argv, shoutNumber, result.str(1).c_str(),
                       result.str(2).c_str());
         }
-        else 
+        else
             fourArgc(argv, shoutNumber, result.str(1).c_str(),
                      result.str(2).c_str());
     }

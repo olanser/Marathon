@@ -1,13 +1,8 @@
 #include "draugrII.h"
 
-Draugr::Draugr() : m_frostResist(50), m_health(100) {
-    std::cout << "Draugr with " << m_health << " health and " << m_frostResist;
-    std::cout << "% frost resist was born!" << std::endl;
-}
+Draugr::Draugr() : Draugr::Draugr(100, 50) {}
 
-Draugr::Draugr(int frostResist) : m_frostResist(frostResist), m_health(100) {
-    std::cout << "Draugr with " << m_health << " health and " << m_frostResist;
-    std::cout << "% frost resist was born!" << std::endl;
+Draugr::Draugr(int frostResist) : Draugr::Draugr(100, frostResist) {
 }
 
 Draugr::Draugr(double health, int frostResist) 
@@ -27,10 +22,6 @@ void Draugr::shoutPhrase(int shoutNumber) const {
                                      "Aav Dilon!",
                                      "Sovngarde Saraan!"
                                     };
-    if (shoutNumber < 0 || shoutNumber > 8) {
-        std::cerr << "Invalid shoutNumber" << std::endl;
-        exit(1);
-    }
     std::cout << "Draugr (" << m_health << " health, " << m_frostResist;
     std::cout << "% frost resist) shouts:\n" << list[shoutNumber] << std::endl;
 }

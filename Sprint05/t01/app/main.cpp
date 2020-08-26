@@ -48,12 +48,12 @@ int main(int argc, char** argv) {
                       " [frostResist]");
     size_t pos = 0;
     int shoutNumber;
-    // double health;
-    // int frostResist;
 
     try {
         shoutNumber = std::stoi(argv[1], &pos, 10);
         if (argv[1][pos] != '\0')
+            throw 1;
+        if (shoutNumber > 9 || shoutNumber < 0)
             throw 1;
     }
     catch (...) {
