@@ -42,4 +42,5 @@ void Map::outputMap() const {
         if (((i + 1) % m_width) == 0)
             std::cout << std::endl;
     }
+    std::cout << ":> ";
 }

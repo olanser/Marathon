@@ -1,7 +1,5 @@
 #pragma once
 
-// #include "SmartPointers.h"
-// #include "MoveManager.h"
 class Player;
 
 class Map final {

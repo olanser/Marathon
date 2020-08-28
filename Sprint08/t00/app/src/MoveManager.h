@@ -1,11 +1,5 @@
 #pragma once
 
-// #include "SmartPointers.h"
-// #include "Map.h"
-
-// class Map final {
-
-// };
 #include "Map.h"
 
 class MoveManager final {
