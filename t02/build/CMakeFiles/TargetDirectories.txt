@@ -1,3 +1,0 @@
-/Users/solianovsk/Desktop/day2/t02/build/CMakeFiles/rebuild_cache.dir
-/Users/solianovsk/Desktop/day2/t02/build/CMakeFiles/edit_cache.dir
-/Users/solianovsk/Desktop/day2/t02/build/CMakeFiles/visitAll.dir
